@@ -1,0 +1,50 @@
+{
+  "name": "yoobdev",
+  "displayName": "yoo.B.dev theme pack",
+  "description": "",
+  "version": "0.0.3",
+  "publisher": "yubiDev",
+  "icon": "img/yoobdev.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimkom369/VSCode-Theme-Pack.git"
+  },
+  "keywords": [
+    "theme",
+    "yellow",
+    "dark theme",
+    "electric theme",
+    "javascript",
+    "js",
+    "red",
+    "burgundy",
+    "purple",
+    "vivid"
+  ],
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "yoo.B.dev Theme Honeycode",
+        "uiTheme": "vs-dark",
+        "path": 
+        "./themes/honeycode-color-theme.json"
+      } ,
+      {
+        "label": "yoo.B.dev Theme Merlot",
+        "uiTheme": "vs-dark",
+        "path": "./themes/merlot-color-theme.json"
+      },
+      {
+        "label": "yoo.B.dev Theme the Occult",
+        "uiTheme": "vs-dark",
+        "path": "./themes/the-occult-color-theme.json"
+      }
+    ]
+  }
+}
